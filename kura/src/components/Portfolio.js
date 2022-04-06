@@ -7,39 +7,21 @@ const IMAGES = [
   {
     src: "/img/portfolio/1.jpg",
     thumbnail: "/img/portfolio/1.jpg",
-    title: "Magic Art",
-    sub: "Image",
+    title: "My awesome tank shooter game",
+    sub: "Project",
   },
   {
     src: "/img/portfolio/2.jpg",
     thumbnail: "/img/portfolio/2.jpg",
-    title: "Bona Green",
-    sub: "Image",
+    title: "Arduino nightstand clock",
+    sub: "Project",
   },
 
   {
     src: "/img/portfolio/3.jpg",
     thumbnail: "/img/portfolio/3.jpg",
-    title: "Leo Dandora",
-    sub: "Image",
-  },
-  {
-    src: "/img/portfolio/4.jpg",
-    thumbnail: "/img/portfolio/4.jpg",
-    title: "Folio Grasia",
-    sub: "Image",
-  },
-  {
-    src: "/img/portfolio/5.jpg",
-    thumbnail: "/img/portfolio/5.jpg",
-    title: "Viva Mercury",
-    sub: "Image",
-  },
-  {
-    src: "/img/portfolio/6.jpg",
-    thumbnail: "/img/portfolio/6.jpg",
-    title: "Santa Onera",
-    sub: "Image",
+    title: "Arduino RGB led controller",
+    sub: "Project",
   },
 ];
 
@@ -62,7 +44,7 @@ const Portfolio = () => {
           <div className="container">
             <div className="kura_tm_main_title">
               <span>Portfolio</span>
-              <h3>Selected Works</h3>
+              <h3>My favourite projects</h3>
             </div>
             <div
               className="portfolio_list gallery_zoom wow fadeInUp"

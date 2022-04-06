@@ -40,15 +40,6 @@ const Header = ({ dark }) => {
                     <a href="#skills">Skills</a>
                   </li>
                   <li>
-                    <a href="#timeline">Timeline</a>
-                  </li>
-                  <li>
-                    <a href="#price">Price</a>
-                  </li>
-                  <li>
-                    <a href="#news">News</a>
-                  </li>
-                  <li>
                     <a href="#contact">Contact</a>
                   </li>
                 </ul>

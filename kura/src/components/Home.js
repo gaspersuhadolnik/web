@@ -21,84 +21,39 @@ const Home = () => {
         <div className="container">
           <div className="content">
             <div className="left">
-              <span className="name">Bernard Smith</span>
-              <h3 className="job">Creative Designer based in Japan</h3>
+              <span className="name">Gašper Suhadolnik</span>
+              <h3 className="job">Arduino enthusiast and CS Student from Ljubljana</h3>
               <div className="services">
                 <ul>
                   <li>
                     <a
                       href="#"
-                      onClick={() =>
-                        onOpenModal(
-                          "/img/service/1.jpg",
-                          "Creative Designer based in Japan"
-                        )
-                      }
+                      
                     >
                       <img className="image" src="/img/service/1.jpg" alt="" />
-                      <span>Web Development</span>
-                      <img
-                        className="svg"
-                        src="/img/svg/right-arrow.svg"
-                        alt=""
-                      />
+                      <span>Embedded systems</span>
+                      
                     </a>
                   </li>
                   <li>
                     <a
                       href="#"
-                      onClick={() =>
-                        onOpenModal("/img/service/2.jpg", "Digital Marketing")
-                      }
+                      
                     >
                       <img className="image" src="/img/service/2.jpg" alt="" />
-                      <span>Digital Marketing</span>
-                      <img
-                        className="svg"
-                        src="/img/svg/right-arrow.svg"
-                        alt=""
-                      />
+                      <span>Java development</span>
+                      
                     </a>
                   </li>
                   <li>
                     <a
                       href="#"
-                      onClick={() =>
-                        onOpenModal("/img/service/1.jpg", "Graphic Design")
-                      }
+                      
                     >
                       <img className="image" src="/img/service/3.jpg" alt="" />
-                      <span>Graphic Design</span>
-                      <img
-                        className="svg"
-                        src="/img/svg/right-arrow.svg"
-                        alt=""
-                      />
+                      <span>C language development</span>
+                      
                     </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="short_info">
-                <ul>
-                  <li>
-                    <div className="list_inner">
-                      <h3>10+</h3>
-                      <span>
-                        Years of
-                        <br />
-                        Experience
-                      </span>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="list_inner">
-                      <h3>3K+</h3>
-                      <span>
-                        Happy
-                        <br />
-                        Customers
-                      </span>
-                    </div>
                   </li>
                 </ul>
               </div>
